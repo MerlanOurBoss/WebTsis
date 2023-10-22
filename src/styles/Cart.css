@@ -20,6 +20,7 @@
   width: 200px;
 }
 
+
 .cartItem .description {
   width: 100%;
   font-size: 30px;
@@ -40,4 +41,7 @@
   border-radius: 8px;
   margin: 10px;
   cursor: pointer;
+}
+.checkout p{
+  margin-left: 10px; 
 }
