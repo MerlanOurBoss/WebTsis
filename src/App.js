@@ -5,12 +5,14 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Cart from "./pages/Cart";
+import {Cart} from "./pages/Cart";
 import { Route, Routes } from "react-router-dom";
+import { ShopContextProvider } from "./helpers/ShopContex";
 
 function App() {
   return (
     <div className="App">
+      <ShopContextProvider>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -20,6 +22,7 @@ function App() {
           <Route path="/cart" element={<Cart/>}/>
         </Routes>
         <Footer />
+        </ShopContextProvider>
     </div>
   );
 }

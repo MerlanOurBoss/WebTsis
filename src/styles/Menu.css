@@ -18,6 +18,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
   }
+  .search_name {
+    width: 55vw;
+    margin-bottom: 50px;
+  }
   
   /* MENU ITEM STYLING */
   
@@ -50,9 +54,16 @@
     margin-left: 0px;
   }
 
+  .menuItem button:hover {
+    background-color: white;
+  }
+
   .menuItem button{
     margin: 0 auto;
     display: block;
+    width: 100%;
+    border-style: hidden;
+    height: 100%;
   }
 
   .addToCartBttn{

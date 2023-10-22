@@ -7,32 +7,38 @@ import DoubleQuarterPounder from "../assets/DoubleQuarterPounderwithCheese.jpg";
 
 export const MenuList = [
   {
+    id: 1,
     name: "Hamburger",
     image: Hamburger,
     price: 5.99,
   },
   {
-    name: "Cheeseburger",
+    id: 2,
+    name: "Cheese burger",
     image: Cheeseburger,
     price: 8.99,
   },
   {
-    name: "DoubleCheeseburger",
+    id: 3,
+    name: "Double Cheese ",
     image: DoubleCheeseburger,
     price: 12.99,
   },
   {
-    name: "QuarterPounder",
+    id: 4,
+    name: "Quarter Pounder",
     image: QuarterPounder,
     price: 16.99,
   },
   {
+    id: 5,
     name: "Bigmag",
     image: Bigmag,
     price: 18.99,
   },
   {
-    name: "DoubleQuarterPounder",
+    id: 6,
+    name: "Double Quarter ",
     image: DoubleQuarterPounder,
     price: 22.99,
   },
